@@ -11,12 +11,12 @@ const App = () => {
         end={{x: 1, y: 0}}
         style={styles.header}>
         <Image
-          source={require('./back_button.png')}
+          source={require('./Images/back_button.png')}
           style={styles.backbutton}
         />
         <Text style={styles.headerText}>Store</Text>
         <Image
-          source={require('./question_mark.png')}
+          source={require('./Images/question_mark.png')}
           style={styles.questionMark}
         />
       </LinearGradient>
@@ -31,31 +31,31 @@ const App = () => {
       <View style={styles.giftCardContainer}>
         <View style={styles.giftCardRow}>
           <Image
-            source={require('./GiftCard1.png')}
+            source={require('./Images/GiftCard1.png')}
             style={styles.giftCardImage}
           />
         </View>
         <View style={styles.giftCardRow}>
           <Image
-            source={require('./GiftCard2.png')}
+            source={require('./Images/GiftCard2.png')}
             style={styles.giftCardImage}
           />
         </View>
         <View style={styles.giftCardRow}>
           <Image
-            source={require('./GiftCard3.png')}
+            source={require('./Images/GiftCard3.png')}
             style={styles.giftCardImage}
           />
         </View>
         <View style={styles.giftCardRow}>
           <Image
-            source={require('./GiftCard4.png')}
+            source={require('./Images/GiftCard4.png')}
             style={styles.giftCardImage}
           />
         </View>
         <View style={styles.giftCardRow}>
           <Image
-            source={require('./GiftCard5.png')}
+            source={require('./Images/GiftCard5.png')}
             style={styles.giftCardImage}
           />
         </View>
